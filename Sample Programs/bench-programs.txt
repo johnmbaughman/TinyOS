@@ -1,0 +1,9 @@
+512,scott13.txt
+512,scott6.txt
+1024,scott9.txt,scott10.txt
+512,scott5.txt
+1568,scott8.txt,scott8.txt,scott8.txt
+512,scott4.txt
+1024,scott1.txt,scott3.txt
+1024,scott11.txt,scott12.txt
+512,scott3.txt

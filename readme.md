@@ -170,6 +170,7 @@ These are also printed and explain in the Help File as well as Final\_Project.do
 - Processes will be loaded and executed in the order they are specified on the command line.
 - There are two idle processes included.  idle.txt will run with lowest priority and will print out 20.  It will run forever.  idle-n.txt will run for n loops (not cycles), specified in the code.  As shipped, idle-n will run for 100 loops.
 - Redirecting OS output to a file is convenient: OS 1024 prog1.txt prog2.txt prog3.txt > output.txt
+- For benchmarking, use `Sample Programs/bench-programs.txt` and avoid files with infinite behavior (e.g., `idle.txt`, `prog1.txt`, `prog2.txt`).
 - OS.config contains many debug flags that can be included to provide insight into non-debug program execution.
 - OS.config contains many options for configuration of memory.  It IS possible to feed invalid values into this config file.  For example, it's not valid to have a physical memory size larger than addressable memory, or a page size larger than addressable memory, etc.  This behavior is appropriate, and is by design.
 - Setting DumpInstruction=true in OS.config will output the a debug print of the executing instruction and the current process id.

@@ -2,4 +2,45 @@
   <Folder Name="/src/">
     <Project Path="src/TinyOSCore/TinyOSCore.csproj" />
   </Folder>
+  <Folder Name="/src-net10/">
+    <Project Path="src-net10/TinyOSCore/TinyOSCore.csproj" />
+  </Folder>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/TinyOSCore.Net6.Benchmarks/TinyOSCore.Net6.Benchmarks.csproj" />
+    <Project Path="benchmarks/TinyOSCore.Net10.Benchmarks/TinyOSCore.Net10.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/Sample Programs/">
+    <File Path="Sample Programs/idle-n.txt" />
+    <File Path="Sample Programs/idle.txt" />
+    <File Path="Sample Programs/prog1.txt" />
+    <File Path="Sample Programs/prog2.txt" />
+    <File Path="Sample Programs/prog3.txt" />
+    <File Path="Sample Programs/readme.txt" />
+    <File Path="Sample Programs/scott1.txt" />
+    <File Path="Sample Programs/scott10.txt" />
+    <File Path="Sample Programs/scott11.txt" />
+    <File Path="Sample Programs/scott12.txt" />
+    <File Path="Sample Programs/scott13.txt" />
+    <File Path="Sample Programs/scott2.txt" />
+    <File Path="Sample Programs/scott3.txt" />
+    <File Path="Sample Programs/scott4.txt" />
+    <File Path="Sample Programs/scott5.txt" />
+    <File Path="Sample Programs/scott6.txt" />
+    <File Path="Sample Programs/scott7.txt" />
+    <File Path="Sample Programs/scott8.txt" />
+    <File Path="Sample Programs/scott9.txt" />
+    <File Path="Sample Programs/testAll.bat" />
+    <File Path="Sample Programs/testAll.sh" />
+    <File Path="Sample Programs/testAllocAndFree.bat" />
+    <File Path="Sample Programs/testCalls.bat" />
+    <File Path="Sample Programs/testEvents.bat" />
+    <File Path="Sample Programs/testJumps.bat" />
+    <File Path="Sample Programs/testLocks.bat" />
+    <File Path="Sample Programs/testMemoryProtection.bat" />
+    <File Path="Sample Programs/testMulti.bat" />
+    <File Path="Sample Programs/testMultiSuper.bat" />
+    <File Path="Sample Programs/testRegisters.bat" />
+    <File Path="Sample Programs/testSharedMem.bat" />
+    <File Path="Sample Programs/testStack.bat" />
+  </Folder>
 </Solution>

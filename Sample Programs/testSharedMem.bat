@@ -1,1 +1,1 @@
-TinyOSCore.exe 1024 scott11.txt scott12.txt
+..\src\TinyOSCore\bin\Release\net6.0\TinyOSCore.exe 1024 scott11.txt scott12.txt

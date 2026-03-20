@@ -181,8 +181,20 @@ namespace Hanselman.CST352
 				if (runningProcesses.Count == 0) 
 				{
 					Console.WriteLine("No Processes");
-					if (bool.Parse(EntryPoint.Configuration["PauseOnExit"]) == true)System.Console.ReadLine();
-					System.Environment.Exit(0);
+					bool pauseOnExit = false;
+					bool exitOnNoProcess = true;
+					if (EntryPoint.Configuration != null)
+					{
+						bool.TryParse(EntryPoint.Configuration["PauseOnExit"], out pauseOnExit);
+						bool configuredExit;
+						if (bool.TryParse(EntryPoint.Configuration["ExitOnNoProcess"], out configuredExit))
+							exitOnNoProcess = configuredExit;
+					}
+					if (pauseOnExit)
+						System.Console.ReadLine();
+					if (exitOnNoProcess)
+						System.Environment.Exit(0);
+					return;
 				}
 				else
 				{

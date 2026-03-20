@@ -1,1 +1,1 @@
-TinyOSCore.exe 1568 scott8.txt scott8.txt scott8.txt
+..\src\TinyOSCore\bin\Release\net6.0\TinyOSCore.exe 1568 scott8.txt scott8.txt scott8.txt

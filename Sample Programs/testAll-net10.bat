@@ -1,0 +1,11 @@
+call testAllocAndFree-net10.bat
+call testCalls-net10.bat
+call testEvents-net10.bat
+call testJumps-net10.bat
+call testLocks-net10.bat
+call testMemoryProtection-net10.bat
+call testRegisters-net10.bat
+call testSharedMem-net10.bat
+call testStack-net10.bat
+call testMulti-net10.bat
+call testMultiSuper-net10.bat

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmarks-20260320-165018</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.8, Windows 11 (10.0.22631.6345)
+Intel Core Ultra 7 155U, 1 CPU, 14 logical and 12 physical cores
+.NET SDK 10.0.201
+  [Host]     : .NET 6.0.36 (6.0.3624.51421), X64 RyuJIT AVX2
+  Job-PUZJIV : .NET 6.0.36 (6.0.3624.51421), X64 RyuJIT AVX2
+</code></pre>
+<pre><code>MinIterationTime=100.0000 ms  InvocationCount=1  IterationCount=3  
+LaunchCount=1  UnrollFactor=1  WarmupCount=3  
+</code></pre>
+
+<table>
+<thead><tr><th>Method    </th><th>SampleProgramFile</th><th>Mean  </th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>RunTinyOSProgram</td><td>1024,(...)3.txt [26]</td><td>92.02 ms</td><td>102.91 ms</td><td>5.641 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>1024,(...)2.txt [28]</td><td>15,056.71 ms</td><td>136.42 ms</td><td>7.478 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>1024,(...)0.txt [27]</td><td>56.03 ms</td><td>88.64 ms</td><td>4.859 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>1568,(...)8.txt [37]</td><td>202.91 ms</td><td>314.58 ms</td><td>17.243 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>512,scott13.txt</td><td>18.88 ms</td><td>23.80 ms</td><td>1.305 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>512,scott3.txt</td><td>40.49 ms</td><td>68.85 ms</td><td>3.774 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>512,scott4.txt</td><td>37.52 ms</td><td>42.64 ms</td><td>2.337 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>512,scott5.txt</td><td>95.59 ms</td><td>56.51 ms</td><td>3.098 ms</td>
+</tr><tr><td>RunTinyOSProgram</td><td>512,scott6.txt</td><td>25.48 ms</td><td>22.23 ms</td><td>1.218 ms</td>
+</tr></tbody></table>
+</body>
+</html>

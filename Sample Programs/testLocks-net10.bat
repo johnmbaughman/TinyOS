@@ -1,0 +1,1 @@
+..\src-net10\TinyOSCore\bin\Release\net10.0\TinyOSCore.exe 64 scott8.txt
